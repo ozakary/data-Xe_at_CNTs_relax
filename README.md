@@ -38,7 +38,7 @@ If you use the code in this repository, please cite the following:
 
 ```bibtex
 @article{zakary_xe-at-cnts_paper_2026,
-  title={Uncovering Nanotube-Induced Magnetic Shielding Effects on $^{129}$Xe NMR with Equivariant Neural Networks},
+  title={Machine Learning-Powered Xenon NMR Relaxation in Nanotubes},
   author={Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
   journal={ChemRxiv},
   volume={},
@@ -55,7 +55,7 @@ If you use the code in this repository, please cite the following:
 ```bibtex
 @dataset{zakary_xe-at-cnts_data_2026,
   author = {Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
-  title = {Supporting Data for "Uncovering Nanotube-Induced Magnetic Shielding Effects on $^{129}$Xe NMR with Equivariant Neural Networks"},
+  title = {Supporting Data for "Machine Learning-Powered Xenon NMR Relaxation in Nanotubes"},
   year = {2026},
   publisher = {Zenodo},
   doi = {TBA},
@@ -67,7 +67,7 @@ If you use the code in this repository, please cite the following:
 ```bibtex
 @misc{zakary_xe-at-cnts_code_2026,
   author = {Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
-  title = {Supporting Code for "Uncovering Nanotube-Induced Magnetic Shielding Effects on $^{129}$Xe NMR with Equivariant Neural Networks"},
+  title = {Supporting Code for "Machine Learning-Powered Xenon NMR Relaxation in Nanotubes"},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
