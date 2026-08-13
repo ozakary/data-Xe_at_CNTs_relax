@@ -37,7 +37,7 @@ If you use the code in this repository, please cite the following:
 ### Paper  
 
 ```bibtex
-@article{zakary_xe-at-cnts_paper_2026,
+@article{zakary_xe-relax-at-cnts_paper_2026,
   title={Machine Learning-Powered Xenon NMR Relaxation in Nanotubes},
   author={Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
   journal={ChemRxiv},
@@ -53,7 +53,7 @@ If you use the code in this repository, please cite the following:
 ### Dataset  
 
 ```bibtex
-@dataset{zakary_xe-at-cnts_data_2026,
+@dataset{zakary_xe-relax-at-cnts_data_2026,
   author = {Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
   title = {Supporting Data for "Machine Learning-Powered Xenon NMR Relaxation in Nanotubes"},
   year = {2026},
@@ -63,16 +63,16 @@ If you use the code in this repository, please cite the following:
 }
 ```
 
-### Code [![DOI](https://img.shields.io/badge/GitHub-ozakary%2Fdata--Xe__at__CNTs-blue.svg)](https://github.com/ozakary/data-Xe_at_CNTs)
+### Code [![DOI](https://img.shields.io/badge/GitHub-ozakary%2Fdata--Xe__relax__at__CNTs-blue.svg)](https://github.com/ozakary/data-Xe_relax_at_CNTs)
 ```bibtex
-@misc{zakary_xe-at-cnts_code_2026,
+@misc{zakary_xe-relax-at-cnts_code_2026,
   author = {Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
   title = {Supporting Code for "Machine Learning-Powered Xenon NMR Relaxation in Nanotubes"},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/ozakary/data-Xe_at_CNTs}},
-  url = {https://github.com/ozakary/data-Xe_at_CNTs}
+  howpublished = {\url{https://github.com/ozakary/data-Xe_relax_at_CNTs}},
+  url = {https://github.com/ozakary/data-Xe_relax_at_CNTs}
 }
 ```
 
