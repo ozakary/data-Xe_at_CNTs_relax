@@ -1,4 +1,4 @@
-# Supporting Code for “*Machine Learning-Powered Xenon NMR Relaxation in Nanotubes*”
+# Supporting Code for “*Machine Learning-Powered Simulations of Confinement-Driven <sup>129</sup>Xe Nuclear Spin Relaxation*”
 
 ## Graphical Abstract
 
@@ -14,7 +14,7 @@
 
 ---
 
-This is the Supporting Code for the manuscript “*Machine Learning-Powered Xenon NMR Relaxation in Nanotubes*”. [DOI: TBA]
+This is the Supporting Code for the manuscript “*Machine Learning-Powered Simulations of Confinement-Driven <sup>129</sup>Xe Nuclear Spin Relaxation*”. [DOI: TBA]
 
 The dataset comprises the following sections:
 
@@ -38,7 +38,7 @@ If you use the code in this repository, please cite the following:
 
 ```bibtex
 @article{zakary_xe-relax-at-cnts_paper_2026,
-  title={Machine Learning-Powered Xenon NMR Relaxation in Nanotubes},
+  title={Machine Learning-Powered Simulations of Confinement-Driven $^{\text{129}}$Xe Nuclear Spin Relaxation},
   author={Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
   journal={ChemRxiv},
   volume={},
@@ -55,7 +55,7 @@ If you use the code in this repository, please cite the following:
 ```bibtex
 @dataset{zakary_xe-relax-at-cnts_data_2026,
   author = {Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
-  title = {Supporting Data for "Machine Learning-Powered Xenon NMR Relaxation in Nanotubes"},
+  title = {Supporting Data for "Machine Learning-Powered Simulations of Confinement-Driven $^{\text{129}}$Xe Nuclear Spin Relaxation"},
   year = {2026},
   publisher = {Zenodo},
   doi = {TBA},
@@ -63,16 +63,16 @@ If you use the code in this repository, please cite the following:
 }
 ```
 
-### Code [![DOI](https://img.shields.io/badge/GitHub-ozakary%2Fdata--Xe__relax__at__CNTs-blue.svg)](https://github.com/ozakary/data-Xe_relax_at_CNTs)
+### Code [![DOI](https://img.shields.io/badge/GitHub-ozakary%2Fdata--Xe__at__CNTs__relax-blue.svg)](https://github.com/ozakary/data-Xe_at_CNTs_relax)
 ```bibtex
 @misc{zakary_xe-relax-at-cnts_code_2026,
   author = {Zakary, Ouail and Jacklin, Tiia and Lantto, Perttu},
-  title = {Supporting Code for "Machine Learning-Powered Xenon NMR Relaxation in Nanotubes"},
+  title = {Supporting Code for "Machine Learning-Powered Simulations of Confinement-Driven $^{\text{129}}$Xe Nuclear Spin Relaxation"},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/ozakary/data-Xe_relax_at_CNTs}},
-  url = {https://github.com/ozakary/data-Xe_relax_at_CNTs}
+  howpublished = {\url{https://github.com/ozakary/data-Xe_at_CNTs_relax}},
+  url = {https://github.com/ozakary/data-Xe_at_CNTs_relax}
 }
 ```
 
