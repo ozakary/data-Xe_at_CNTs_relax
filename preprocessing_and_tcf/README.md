@@ -5,19 +5,19 @@ Builds the run manifest, ingests raw MLMD trajectories into a per-system array, 
 ## Scripts
 
 ### [`build_run_manifest.py`](./build_run_manifest.py)
-Scans the directory tree of generated systems and builds the manifest CSV used by every downstream script in this repository (`run_manifest.csv`), assigning each system to its case (temperature, diameter, or loading series) and subcase (LL/HL or chirality).
+Scans the directory tree of generated systems and builds the manifest CSV used by every downstream script in this repository (`run_manifest.csv`), assigning each system to its case (temperature, SWCNT diameter, or Xe loading series) and subcase (LL/HL or chirality).
 
-Requires a hand-authored `cnt_systems_info.csv` listing, one row per system, at minimum: `system_name`, `chirality`, `n_Xe`, `case`, `subcase`, `variable_value` (the swept quantity's value for that system, e.g. temperature in K, diameter in Å, or loading in %).
+Requires a hand-authored `cnt_systems_info.csv` listing, one row per system, at minimum: `system_name`, `chirality`, `n_Xe`, `case`, `subcase`, `variable_value` (the value of the swept quantity for that system, e.g., temperature in K, SWCNT diameter in Å, or Xe loading in %).
 
 ```bash
 python build_run_manifest.py --root .. --systems-info ./cnt_systems_info.csv --out ./run_manifest.csv
 ```
 
 ### [`step0_verify_xyz_id_vs_csv_index.py`](./step0_verify_xyz_id_vs_csv_index.py)
-Sanity check confirming that atom indices in the raw trajectory files match the indexing assumed by the NMR-ML shielding predictions, before any further processing.
+Sanity check confirming that atom indices in the raw trajectory files match the indexing assumed by the NMR-ML <sup>129</sup>Xe magnetic shielding tensor predictions, before any further processing.
 
 ### [`step1_ingest_and_track.py`](./step1_ingest_and_track.py)
-Ingests one system's raw MLMD trajectory and NMR-ML shielding predictions, tracks each Xe atom across frames, identifies and corrects outlier shielding values via Tukey's IQR rule, and assembles everything into one `_assembled.npz` file consumed by every later step.
+Ingests the raw MLMD trajectory and NMR-ML shielding predictions of one example system, tracks each Xe atom across frames, identifies and corrects outlier shielding values using Tukey's IQR rule, and assembles everything into one `_assembled.npz` file used by every later step.
 
 ```bash
 python step1_ingest_and_track.py \
@@ -29,7 +29,7 @@ python step1_ingest_and_track.py \
 ```
 
 ### [`step2_build_tcf.py`](./step2_build_tcf.py)
-Constructs h₀(t), h₁(t) at θ=0 from the assembled tensor and builds the per-atom and pooled shielding TCF via FFT.
+Constructs h<sub>0</sub>(t), h<sub>1</sub>(t) at θ=0 from the assembled tensor and builds the per-atom and pooled shielding TCF using FFT.
 
 ```bash
 python step2_build_tcf.py \
