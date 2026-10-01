@@ -31,7 +31,7 @@ python run_all_systems.py \
 ```
 
 ### [`collect_results.py`](./collect_results.py)
-Collects every system's `.npz` outputs into four flat CSVs: a summary (powder-averaged and θ=0 T<sub>1</sub>/T<sub>2</sub> side by side), a detailed per-angle, per-atom breakdown, a per-theta table (input to the angular figures), and a list of any systems missing expected output.
+Collects `.npz` outputs of every system into four flat CSVs: a summary (powder-averaged and θ=0 T<sub>1</sub>/T<sub>2</sub> side by side), a detailed per-angle, per-atom breakdown, a per-theta table (input to the angular figures), and a list of any systems missing expected output.
 
 ```bash
 python collect_results.py \
