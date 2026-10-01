@@ -1,4 +1,4 @@
-# Supporting Code for “*Machine Learning-Powered Simulations of Confinement-Driven <sup>129</sup>Xe Nuclear Spin Relaxation*”
+# Supporting Code for "*Machine Learning-Powered Simulations of Confinement-Driven <sup>129</sup>Xe Nuclear Spin Relaxation*"
 
 ## Graphical Abstract
 
@@ -14,22 +14,19 @@
 
 ---
 
-This is the Supporting Code for the manuscript “*Machine Learning-Powered Simulations of Confinement-Driven <sup>129</sup>Xe Nuclear Spin Relaxation*”. [DOI: TBA]
+This is the Supporting Code for the manuscript "*Machine Learning-Powered Simulations of Confinement-Driven <sup>129</sup>Xe Nuclear Spin Relaxation*". [DOI: TBA]
 
-The dataset comprises the following sections:
+This work builds on the MLMD trajectories and NMR-ML predicted <sup>129</sup>Xe magnetic shielding tensors from our previous study (see [data-Xe_at_CNTs](https://github.com/ozakary/data-Xe_at_CNTs)). The repository comprises the following sections:
 
-1. First principle calculations for generating the transferability dataset. ([directory](./dft_calculations/))
-2. Procedure for processing and preparing the dataset for training Allegro.  ([directory](./mlip_dataset/))
-3. Allegro model training, validation, and testing configuration scripts. ([directory](./configs_mlip/))
-4. Transferability tests for the trained MLIP model. ([directory](./mlip_transferability/))
-5. Procedure for processing and preparing the dataset for training SchNet.  ([directory](./nmr-ml_dataset/))
-6. SchNet model training, validation, and testing configuration code. ([directory](./nmr-ml_config/))
-7. Transferability tests for the trained NMR-ML model. ([directory](./nmr-ml_transferability/))
-8. Python scripts for creating the initial Xe@SWCNTs models (i.e., SWCNTs with different radii and lengths). ([directory](./xe-at-swcnts_construction/))
-9. LAMMPS MLMD simulation procedure and input scripts. ([directory](./mlmd_procedure/))
-10. Procedure for computing the MSD and diffusion coefficients. ([directory](./msd_and_diff-coeff_procedure/))
-11. Procedure for <sup>129</sup>Xe σ<sub>iso</sub> prediction using the trained NMR-ML model. ([directory](./nmr-ml_predict_procedure/))
-12. Python scripts and raw numerical data for all figures included in the main manuscript and the Supporting Information. ([directory](./figures/))
+1. Outlier correction and time correlation function (TCF) construction. ([directory](./preprocessing_and_tcf/))
+2. Powder-averaged relaxation times at a general SWCNT-to-B<sub>0</sub> tilt angle, the primary methodology. ([directory](./powder_averaged_relaxation/))
+3. θ=0 (SWCNT axis parallel to B<sub>0</sub>) reference relaxation calculation. ([directory](./theta0_reference_relaxation/))
+4. Per-atom uncertainty estimation for the powder-averaged relaxation times. ([directory](./uncertainty_estimation/))
+5. Fit-window and angle-grid convergence validation. ([directory](./validation_cutoff_and_angle_grid/))
+6. Batch orchestration and results collection across all 38 systems. ([directory](./run_orchestration_and_results/))
+7. Symbolic verification of the reduced Wigner rotation matrix. ([directory](./wigner_matrix_verification/))
+8. Manuscript and SI figure generation. ([directory](./figures/))
+9. Manuscript and SI table generation. ([directory](./tables/))
 
 ## Citations
 If you use the code in this repository, please cite the following:
