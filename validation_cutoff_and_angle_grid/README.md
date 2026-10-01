@@ -46,4 +46,4 @@ python step6_check_cutoff_robustness_powder.py \
     --out-summary ./powder_cutoff_robustness_summary.csv
 ```
 
-[`step6`](./step6_check_cutoff_robustness_powder.py) must be run after [`run_orchestration_and_results/run_all_systems.py`](../run_orchestration_and_results/run_all_systems.py) has populated the per-system results directory for all 38 systems.
+[`step6`](./step6_check_cutoff_robustness_powder.py) must be run after [`run_orchestration_and_results/run_all_systems.py`](../run_orchestration_and_results/run_all_systems.py) has generated the per-system results directory for all 38 systems.
