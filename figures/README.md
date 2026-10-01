@@ -1,4 +1,4 @@
-# Manuscript and ESI Figure Generation
+# Manuscript and SI Figure Generation
 
 All figure scripts share [`figure_formatting_v2.py`](./figure_formatting_v2.py) for consistent fonts, colors, and fixed-frame layout, and read from [`run_orchestration_and_results/`](../run_orchestration_and_results/)'s output CSVs and the per-system results directory. Run after that step completes.
 
