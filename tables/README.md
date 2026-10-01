@@ -14,4 +14,4 @@ Prints LaTeX rows for Tables S1-S6, TCF fit parameters (A<sub>1</sub>, τ<sub>1<
 python print_tcf_fit_params_table.py --manifest ../run_manifest.csv --results-dir ../results --theta-deg 0 40 90
 ```
 
-Both scripts read from [`run_orchestration_and_results/`](../run_orchestration_and_results/)'s manifest and the per-system results directory, run after that step completes.
+Both scripts read the manifest from [`run_orchestration_and_results/`](../run_orchestration_and_results/) and the per-system results directory, run after that step completes.
