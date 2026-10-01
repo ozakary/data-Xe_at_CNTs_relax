@@ -1,6 +1,6 @@
 # Manuscript and SI Figure Generation
 
-All figure scripts share [`figure_formatting_v2.py`](./figure_formatting_v2.py) for consistent fonts, colors, and fixed-frame layout, and read from [`run_orchestration_and_results/`](../run_orchestration_and_results/)'s output CSVs and the per-system results directory. Run after that step completes.
+All figure scripts share [`figure_formatting_v2.py`](./figure_formatting_v2.py) for consistent fonts, colors, and fixed-frame layout, and read output CSVs from [`run_orchestration_and_results/`](../run_orchestration_and_results/) and the per-system results directory. Run after that step completes.
 
 ## Scripts
 
@@ -13,7 +13,7 @@ python plot_T2_angular_all_cases.py --per-theta-csv ../results_per_theta.csv --r
 ```
 
 ### [`plot_T1_all_cases.py`](./plot_T1_all_cases.py) / [`plot_T2_all_cases.py`](./plot_T2_all_cases.py)
-Powder-averaged T<sub>1</sub>/T<sub>2</sub> versus the swept variable, one SVG per case, Figure 2's T<sub>1</sub>/T<sub>2</sub> panels.
+Powder-averaged T<sub>1</sub>/T<sub>2</sub> versus the swept variable, one SVG per case, T<sub>1</sub>/T<sub>2</sub> panels in Figure 2.
 
 ```bash
 python plot_T1_all_cases.py --manifest ../run_manifest.csv --results-dir ../results --b0-fields 9.4 14.1
@@ -21,7 +21,7 @@ python plot_T2_all_cases.py --manifest ../run_manifest.csv --results-dir ../resu
 ```
 
 ### [`plot_spectral_density_all_cases.py`](./plot_spectral_density_all_cases.py) / [`plot_tcf_all_cases.py`](./plot_tcf_all_cases.py)
-SDF and TCF, θ=0, one SVG per case, Figure 2's SDF/TCF panels.
+SDF and TCF, θ=0, one SVG per case, SDF/TCF panels in Figure 2.
 
 ```bash
 python plot_spectral_density_all_cases.py --manifest ../run_manifest.csv --results-dir ../results --b0-fields 9.4 14.1
