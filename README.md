@@ -47,7 +47,7 @@ If you use the code in this repository, please cite the following:
 }
 ```
 
-### Dataset  
+### Dataset [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23083384-green.svg)](https://doi.org/10.5281/zenodo.23083384)
 
 ```bibtex
 @dataset{zakary_xe-relax-at-cnts_data_2026,
@@ -55,8 +55,8 @@ If you use the code in this repository, please cite the following:
   title = {Supporting Data for "Machine Learning-Powered Simulations of Confinement-Driven $^{\text{129}}$Xe Nuclear Spin Relaxation"},
   year = {2026},
   publisher = {Zenodo},
-  doi = {TBA},
-  url = {TBA}
+  doi = {10.5281/zenodo.23083384},
+  url = {https://doi.org/10.5281/zenodo.23083384}
 }
 ```
 
