@@ -5,7 +5,7 @@ Confirms that the 3000 ps TCF fit window is long enough for both the θ=0-only a
 ## Scripts
 
 ### [`step5_cutoff_sensitivity.py`](./step5_cutoff_sensitivity.py)
-Per-system check of the θ=0 fit window: refits a single system's TCF over a range of cutoffs and tracks how T<sub>1</sub>, T<sub>2</sub> change as the window grows.
+Per-system check of the θ=0 fit window: refits a single per-system TCF over a range of cutoffs and tracks how T<sub>1</sub>, T<sub>2</sub> change as the window grows.
 
 ```bash
 python step5_cutoff_sensitivity.py \
